@@ -1,0 +1,56 @@
+.header_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.header_container> div>img{
+    width: 100px;
+
+}
+ul li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 25px;
+    color: white;
+    font-size: 2vw;
+    
+}
+.noen{
+    margin-left: none;
+    margin-right: none;
+    width: 100%;
+}
+div{
+    width: 75%;
+    margin-left:auto ;
+    margin-right:auto  ;
+}
+.birinci_div{
+    background-color: rgb(84, 84, 84);
+    border-top: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    width: 75%;
+    padding-bottom: 1px;
+}
+h4 , .numara{
+    text-align: center;
+}
+.kiz_kulesi{
+    
+    border: 2px solid white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.images{
+    width: 75.0%;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    font-size: 3vw;
+    
+}
