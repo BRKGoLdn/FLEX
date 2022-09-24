@@ -1,3 +1,5 @@
+
+
 .container{
     display:flex;
     justify-content: space-around;
@@ -9,20 +11,81 @@
 }
 
 .tel{
-   text-align:center;
+    text-align:center;
 }
 
 ul{
     list-style-type: none;
     display:flex;
-   background-color: #494C5F;
-   padding:10px;
-   border-top:3px solid orange;
-   border-right:3px solid orange;
-   border-left:3px solid orange;
+    background-color: #494C5F;
+    padding:10px;
+    border-top:3px solid orange;
+    border-right:3px solid orange;
+    border-left:3px solid orange;
 }
 
 li{
     /* display:inline; */
- padding:10px;
+    padding:10px;   
+    color: white;
+
+}
+#kule{
+    width: 100%;        
+}
+.ana_sayfa{
+    
+    background-color: #494C5F;
+    padding:2px;
+    border: 2px solid orange;
+}
+.ana_sayfa p {
+    color: white;
+    margin: 2px;
+}
+.kartlar{
+    margin-top:100px ;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.kart{
+    padding: 20px;
+    border: 2px solid black;
+    width: 25%;
+    margin-bottom: 20px;
+}
+.kart h3 {
+    background-color: orange;
+    color: white;
+    margin: 2px;
+    padding: 5px;
+
+}
+.kart img{
+    width: 100% ;
+    border: 2px solid rgb(184, 184, 184);
+    padding: 5px;
+    
+}
+.kart p{
+    margin: 2px;
+    color: black;
+    text-align: center;
+}
+.kart h5{
+    text-align: right;
+    background-color: #494C5F;
+    font-size: 20px;
+    color: white;
+}
+.footer{
+    background-color: #494C5F;
+    padding:5px;
+    border-bottom:3px solid orange;
+    border-right:3px solid orange;
+    border-left:3px solid orange;
+    color: white;
+    text-align:center;
+    height: 75px;
 }
