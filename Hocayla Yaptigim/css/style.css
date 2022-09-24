@@ -81,7 +81,7 @@ li{
 }
 .footer{
     background-color: #494C5F;
-    padding:5px;
+    padding-top: none;
     border-bottom:3px solid orange;
     border-right:3px solid orange;
     border-left:3px solid orange;
